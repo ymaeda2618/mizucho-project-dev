@@ -1,0 +1,507 @@
+    /** Author y_maeda
+*********************************
+***
+*** COMMON CSS
+***
+*********************************
+**  変更履歴
+** -------------------------------
+** 2020-04-03 y_maeda 新規作成
+**
+** --------------------------------*/
+    /*******************
+     *共通処理
+    *******************/
+    
+    body {
+        font-family: "Noto Serif JP", "游明朝", "Yu Mincho", "YuMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "HGS明朝E", "メイリオ", "Meiryo", "Times New Roman", Times, Garamond, Georgia, serif;
+    }
+    
+    body .siteContent,
+    .page-header {
+        margin-top: 0px !important;
+    }
+    
+    .page .entry-body {
+        margin-bottom: 0px !important;
+    }
+    
+    .page-header,
+    .breadSection {
+        display: none;
+    }
+    
+    .siteHeadContainer {
+        max-width: 1600px;
+    }
+    
+    .siteorigin-widget-tinymce {
+        line-height: 0px;
+    }
+    
+    h3:after,
+    .subSection-title:after {
+        border-bottom: none;
+    }
+    
+    .mainSection header {
+        text-align: center;
+        padding: 50px 0px;
+    }
+    
+    @media (max-width: 992px) {
+        .mainSection header {
+            padding: 0px;
+        }
+    }
+    
+    .container {
+        max-width: unset;
+        width: 90%;
+        margin: auto;
+    }
+    
+    @media (max-width: 992px) {
+        .container {
+            padding: 0px;
+            width: 100%;
+        }
+        .site-logo {
+            max-height: 100px;
+            width: 50%;
+            float: left;
+        }
+        .btn-menu {
+            position: absolute;
+            z-index: 99;
+            right: 40px;
+            top: -60px;
+            margin: auto;
+        }
+        .btn-menu svg {
+            width: 40px;
+            height: 40px;
+        }
+    }
+    /*sydney追加*/
+    
+    .site-header {
+        background-color: transparent!important;
+        background: url(https://mizucho.com/home/wp-content/uploads/2020/05/mizucho_bg_washi.png);
+        background-size: 100% auto;
+    }
+    
+    #primary {
+        width: 100%;
+        padding: 0px;
+    }
+    
+    #primary #main {
+        margin-top: 136px;
+    }
+    
+    .page-wrap {
+        padding: 0px;
+    }
+    
+    .page .page-wrap .content-wrapper {
+        background: transparent;
+        width: 100%;
+        padding: 0px;
+    }
+    
+    .content-area .post-wrap {
+        padding: 0px;
+    }
+    
+    .entry-header {
+        display: none;
+    }
+    
+    .panel-grid {
+        max-width: unset;
+    }
+    
+    .row {
+        margin: auto;
+    }
+    
+    .panel-grid-cell {
+        padding: 0px!important;
+        margin: 0px!important;
+    }
+    
+    .content-area .hentry {
+        padding-bottom: 0px;
+    }
+    
+    .type-post .entry-header {
+        display: block;
+        max-width: 800px;
+        margin: auto;
+        padding: 20px 0px;
+        text-align: center;
+    }
+    
+    .type-post .entry-thumb {
+        max-width: 1200px;
+        margin: 0px auto 50px;
+        display: block;
+    }
+    
+    .type-post .entry-content {
+        max-width: 600px;
+        margin: auto;
+        font-size: 20px;
+    }
+    
+    @media (max-width: 480px) {
+        #primary #main {
+            margin-top: 0px;
+        }
+        .type-post .entry-header {
+            padding: 0px;
+        }
+        .type-post .entry-thumb {
+            margin: 0px auto 50px;
+        }
+        .type-post .entry-content {
+            font-size: 15px;
+        }
+    }
+    /*******************
+     *メニュー
+     *******************/
+    
+    #vk-mobile-nav {
+        background: url('https://danya.co.jp/home/wp-content/uploads/2020/04/bg_washi.png');
+    }
+    
+    .vk-mobile-nav-widget {
+        width: 30%;
+        margin: auto;
+        padding: 30px 0px;
+    }
+    
+    .device-pc .gMenu>li>a {
+        padding: 0px;
+    }
+    
+    #gMenu_outer li {
+        max-width: 15%!important;
+        margin: 10px;
+        width: 130px;
+        height: 35px;
+    }
+    
+    #mainnav ul li a {
+        color: #171c61;
+        font-family: "Noto Serif JP", "游明朝", "Yu Mincho", "YuMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "HGS明朝E", "メイリオ", "Meiryo", "Times New Roman", Times, Garamond, Georgia, serif;
+        letter-spacing: 1px;
+    }
+    
+    .btn-menu .sydney-svg-icon {
+        fill: #171c61!important;
+    }
+    
+    @media (max-width: 992px) {
+        .vk-mobile-nav nav>ul {
+            border: none;
+            text-align: center;
+            font-size: 20px;
+        }
+        .vk-mobile-nav-menu-btn {
+            right: 5px!important;
+            left: auto!important;
+        }
+        .vk-mobile-nav nav ul li a {
+            color: #707070;
+            font-weight: bold;
+            border: none;
+        }
+    }
+    /*******************
+     *ヘッダーエリア
+     *******************/
+    
+    .siteHeader .container {
+        width: 80%;
+        margin: auto;
+    }
+    
+    .siteHeader_logo {
+        float: unset!important;
+    }
+    
+    .siteHeader_logo img {
+        height: 100px;
+        max-height: 100px;
+    }
+    
+    .navbar-header {
+        width: 100%;
+        display: inline-block;
+        height: 100px;
+        text-align: center;
+    }
+    
+    .gMenu {
+        display: inline-block!important;
+    }
+    
+    .gMenu_outer {
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+        padding: 30px 0px 0px;
+    }
+    
+    .gMenu_outer nav {
+        display: inline-block!important;
+        width: unset;
+    }
+    
+    #gMenu_outer li {
+        border: none!important;
+    }
+    
+    @media (max-width: 1200px) {
+        .siteHeader {
+            background: transparent;
+            box-shadow: none;
+            height: unset;
+            border-bottom: none!important;
+            padding: 10px 0px 20px;
+        }
+        .siteHeader .container {
+            padding: 0px !important;
+        }
+        .siteHeader_logo img {
+            height: 150px;
+            max-height: 150px;
+        }
+        .navbar-header {
+            height: 150px;
+        }
+        .navbar-brand {
+            float: left;
+            text-align: center;
+            height: 150px;
+        }
+        .siteHeader_logo a {
+            display: inline-block;
+        }
+        .navbar-brand a img {
+            padding-top: 15px!important;
+            margin: inherit;
+            width: 60%;
+            height: auto;
+            max-width: unset;
+            max-height: unset;
+            text-align: center;
+            margin: auto;
+            padding: 25px 0px;
+            display: inline-block;
+        }
+        .gMenu_outer {
+            display: none!important;
+        }
+        .gMenu_outer nav {
+            display: none!important;
+        }
+    }
+    /*******************
+     *PCとSPのCSS
+     *******************/
+    
+    .pc-zone {
+        display: block;
+        width: 100%;
+    }
+    
+    .sp-zone {
+        display: none;
+    }
+    
+    @media (max-width: 480px) {
+        .pc-zone {
+            display: none;
+        }
+        .sp-zone {
+            display: block;
+        }
+    }
+    /*******************
+     *記事投稿エリア
+     *******************/
+    /* syneyで廃止
+    #main article {
+        width: 80%;
+        max-width: 600px;
+        margin: auto;
+        padding: 100px 0px;
+    }
+    
+    #main article .entry-body {
+        font-size: 24px;
+    }
+    .entry-header {
+        margin-bottom: 3.5em!important;
+    }*/
+    
+    .entry-meta_items_term,
+    .entry-meta-dataList,
+    .entry-footer {
+        display: none!important;
+        margin: auto!important;
+    }
+    
+    .postNextPrev {
+        display: none!important;
+    }
+    
+    @media (max-width: 480px) {
+        /* syneyで廃止
+        #main article {
+            padding: 50px 0px;
+        }
+        #main article .entry-body {
+            font-size: 16px;
+        }*/
+    }
+    /*******************
+    *footerエリア
+    *******************/
+    
+    .site-footer {
+        text-align: center;
+        background: none;
+        /*background-color: transparent;
+        background: url(https://mizucho.com/home/wp-content/uploads/2020/05/mizucho_bg_washi.png);
+        background-size: 100% auto;*/
+        background-color: #a5c0cc;
+        font-size: 16px;
+        color: white;
+    }
+    
+    .site-footer .container {
+        font-size: 16px;
+        padding: 20px 0px;
+    }
+    
+    @media (max-width: 480px) {
+        .site-footer {
+            font-size: 12px;
+        }
+        .site-footer .container {
+            font-size: 12px;
+            padding: 10px 0px;
+        }
+    }
+    
+    .footer-area {
+        width: 100%;
+        display: inline-block;
+        margin: auto;
+        text-align: center;
+        margin-left: auto;
+        padding: 0px;
+    }
+    
+    .footer-section {
+        color: white;
+        padding-top: 30px;
+        display: inline-block;
+        width: 100%;
+    }
+    
+    .footer-section .logo {
+        max-width: 800px;
+        margin: auto;
+    }
+    
+    .footer-section .logo img {
+        width: 100%;
+        max-width: 250px;
+        margin: 0 auto 1em;
+        padding: 50px 0px;
+    }
+    
+    @media (max-width: 480px) {
+        .footer-section .logo img {
+            max-width: 200px;
+        }
+    }
+    
+    .footer-section .st {
+        font-size: 18px;
+        letter-spacing: .06em;
+        text-align: center;
+        color: #ffffff;
+        max-width: 800px;
+        margin: auto;
+    }
+    
+    .footer-section address {
+        margin-top: 1em;
+        line-height: 1.2;
+        font-size: 14px;
+        letter-spacing: .06em;
+        text-align: center;
+        color: #ffffff;
+        font-style: normal;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        display: block;
+        max-width: 800px;
+        margin: auto;
+    }
+    
+    .footer-section ul {
+        list-style: none;
+        padding-left: 0px;
+        display: inline-block;
+        padding: 20px 0px;
+        margin-bottom: 0px;
+        max-width: 800px;
+        margin: auto;
+    }
+    
+    .footer-section .sns li:first-child {
+        letter-spacing: normal;
+        vertical-align: middle;
+        width: 50%;
+        float: left;
+        text-align: right;
+    }
+    
+    .footer-section .sns li {
+        letter-spacing: normal;
+        vertical-align: middle;
+        width: 50%;
+        float: left;
+        text-align: left;
+    }
+    
+    .footer-section .sns li img {
+        width: 15%;
+    }
+    
+    .footer-section .sns li .fb {
+        position: relative;
+        right: 10%;
+    }
+    
+    .footer-section .sns li .tw {
+        position: relative;
+        left: 10%;
+    }
+    
+    .copySection {
+        background-color: black;
+        color: #a2a2a2;
+    }
+    
+    .footerMenu {
+        border: none;
+    }

@@ -1,0 +1,135 @@
+/** Author y_maeda
+*********************************
+***
+*** news_list CSS
+***
+*********************************
+**  変更履歴
+** -------------------------------
+** 2020-04-03 y_maeda 新規作成
+**
+** --------------------------------*/
+
+#main-area {
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    margin-left: auto;
+    padding: 0px;
+}
+
+
+/* お知らせエリア */
+
+.news-area {
+    display: inline-block;
+    padding: 100px 0px;
+    background-size: 100%;
+    width: 100%;
+    min-height: 800px;
+}
+
+.news-area .news-title-area {
+    max-width: 800px;
+    margin: auto;
+    letter-spacing: 5.0px;
+}
+
+.news-title-area {
+    width: 80%;
+    margin: auto;
+    line-height: 1.3;
+    font-size: 30px;
+    color: #171c61;
+    padding: 0px 0 50px;
+}
+
+.news-contents-list-area {
+    max-width: 800px;
+    margin: auto;
+}
+
+.news-contents-area {
+    display: inline-table;
+    width: 80%;
+    max-width: 600px;
+    border: 1px solid #d0b0ae;
+    background-color: white;
+    padding: 20px;
+    margin: 10px auto;
+    height: 90px;
+}
+
+.news-img-area {
+    width: 20%;
+    float: left;
+}
+
+.news-contents-date-area,
+.news-contents-title-area {
+    width: 80%;
+    float: left;
+}
+
+.news-contents-date {
+    font-size: 16px;
+    color: black;
+    text-align: left;
+    padding-left: 20px;
+    line-height: 2.0;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.news-contents-title {
+    font-size: 18px;
+    color: black;
+    text-align: left;
+    padding-left: 20px;
+    line-height: 2.0;
+    display: block;
+}
+
+.news-list-btn-area {
+    padding-top: 40px;
+    width: 100%;
+}
+
+.news-list-btn-area .news-btn-link {
+    border: 1px solid #d0b0ae;
+    width: 60%;
+    max-width: 500px;
+    font-size: 18px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    display: inline-block;
+    color: #d0b0ae;
+    font-size: 18px;
+}
+
+@media (max-width: 800px) {
+    .news-area {
+        padding: 30px 0px;
+    }
+}
+
+@media (max-width: 480px) {
+    .news-title-area {
+        font-size: 16px;
+        padding: 0px 0 20px;
+    }
+    .news-contents-date {
+        font-size: 10px;
+        line-height: 1.0;
+    }
+    .news-contents-title {
+        font-size: 12px;
+        line-height: 1.0;
+    }
+    .news-list-btn-area .news-btn-link {
+        padding: 20px;
+        font-size: 11px;
+    }
+}
